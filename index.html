@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: auto;
+            height: auto;
+            background-image: url(smoke-2147831_1920.jpg);
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .Sadako {
+            height: 200px;
+            position: absolute;
+            top: 14vw;
+            left: -10vw;
+            animation: walk 10s 3s linear, jump 2s 3s ease-out;
+
+        }
+
+        .Sadako2 {
+            height: 500px;
+            position: absolute;
+            bottom: 0vh;
+            right: -30vw;
+            animation: walk2 15s 11s linear, jump2 2s 11s ease infinite;
+
+        }
+
+        .Sadako3 {
+            height: 1500px;
+            position: absolute;
+            bottom: 0vh;
+            left: -50vw;
+            animation: walk3 0.5s 25s linear forwards, jump2 2s 25s ease infinite;
+
+        }
+
+        @keyframes walk {
+
+            from {
+                left: 26vw
+            }
+
+            to {
+                left: 120vw
+            }
+        }
+
+        @keyframes jump {
+            0% {
+                top: 14vw
+            }
+
+            50% {
+                top: 6vw
+            }
+
+            100% {
+                top: 14vw
+            }
+        }
+
+        @keyframes walk2 {
+
+            from {
+                right: -30vw
+            }
+
+            to {
+                right: 120vw
+            }
+        }
+
+        @keyframes jump2 {
+            0% {
+                top: 10vw
+            }
+
+            50% {
+                top: 0vw
+            }
+
+            100% {
+                top: 10vw
+            }
+        }
+
+        @keyframes walk3 {
+
+            from {
+                left: -50vw
+            }
+
+            to {
+                left: 25vw
+            }
+        }
+
+        @keyframes jump3 {
+            0% {
+                top: 10vw
+            }
+
+            50% {
+                top: 0vw
+            }
+
+            100% {
+                top: 10vw
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="woman-158669_1280.png" alt="Sadako" class="Sadako">
+    <img src="woman-158669_1280.png" alt="Sadako" class="Sadako2">
+    <img src="woman-158669_1280.png" alt="Sadako" class="Sadako3">
+</body>
+
+</html>
